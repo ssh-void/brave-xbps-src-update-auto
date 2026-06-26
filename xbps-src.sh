@@ -21,7 +21,7 @@ EOF
 
 doas usermod -a -G xbuilder void
 printf "#====================================================================================#\n"
-cd /opt/void-packages && ./xbps-src -A x86_64 -j "$(nproc)" -f pkg torbrowser-launcher && xi -Syuf torbrowser-launcher
+#cd /opt/void-packages && ./xbps-src -A x86_64 -j "$(nproc)" -f pkg torbrowser-launcher && xi -Syuf torbrowser-launcher
 #exemple
 #./xbps-src pkg google-chrome && xi google-chrome
 #./xbps-src pkg discord && xi discord

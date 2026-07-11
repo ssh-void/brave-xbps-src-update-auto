@@ -124,4 +124,6 @@ echo "[*] Building package..."
 cd /opt/void-packages && ./xbps-src -A x86_64 -f pkg brave
 echo "[*] Installing..."
 doas xi -Syuf brave
+#ln -s "$HOME/.config/BraveSoftware/Brave-Origin" "$HOME/.config/BraveSoftware/Brave-Browser"
+# doas ln -sf /usr/bin/brave /opt/brave.com/brave-origin/brave-origin
 echo "[✓] Brave Origin $VERSION successfully installed!"

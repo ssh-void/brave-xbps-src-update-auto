@@ -1,4 +1,3 @@
-
 🔻 Brave orgin for VOIDLINUX glibc x86_64 
 🚩 updating auto ... clean
 ~ > braveupdatexbps.sh
